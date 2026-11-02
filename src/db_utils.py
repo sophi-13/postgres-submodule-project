@@ -4,5 +4,5 @@ def get_connection_params(database, user, password, host="localhost", port=5432)
         "user": user,
         "password": password,
         "host": host,
-        "port": 5433
+        "port": port
     }
