@@ -1,0 +1,6 @@
+site_name: PostgreSQL Project
+
+docs_dir: docs
+
+nav:
+  - Главная: index.md

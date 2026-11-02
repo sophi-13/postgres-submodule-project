@@ -1,0 +1,28 @@
+
+name: Documentation
+
+on:
+  push:
+    branches:
+      - master
+      - development
+      - release
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install MkDocs
+        run: pip install mkdocs
+
+      - name: Build documentation
+        run: mkdocs build
