@@ -1,0 +1,13 @@
+site_name: PostgreSQL Submodule Project
+site_description: Документация учебного проекта по работе с Git Submodules и PostgreSQL
+site_author: Софья Тимохина
+repo_url: https://github.com/sophi-13/postgres-submodule-project
+theme:
+  name: readthedocs
+nav:
+  - Главная: index.md
+  - Установка и запуск: installation.md
+  - Структура проекта: structure.md
+  - Работа с Git Submodules: submodules.md
+  - Тестирование: testing.md
+  - API: api.md
